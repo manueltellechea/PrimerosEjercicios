@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="estiloR.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="titulo">Formulario de contacto</h1>
+    </header>
+
+    <main>
+
+
+        <form action="index.html" method="get">
+            
+            <label for="nombre">Nombre completo <br></label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br><br>
+
+            <label for="email">Correo electrónico <br></label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="clave">Contraseña <br></label>
+            <input type="password" id="clave" name="clave">
+            <br><br>
+
+            <label for="edad">Edad <br></label>
+            <input type="number" id="edad" name="edad" min="0" max="120">
+            <br><br>
+
+            <label for="fecha">Fecha de nacimiento <br></label>
+            <input type="date" id="fecha" name="fecha">
+            <br><br>
+
+            <p>Género</p>
+            <input type="radio" id="generoH" name="Genero" value="H">
+            <label for="generoH">Hombre</label>
+            <br><br>
+
+            <input type="radio" id="generoM" name="Genero" value="M">
+            <label for="generoM">Mujer</label>
+            <br><br>
+
+            <input type="radio" id="generoO" name="Genero" value="O">
+            <label for="generoO">Otro</label>
+            <br><br>
+
+            <p>Intereses</p>
+            <input type="checkbox" id="tecnologia" name="Intereses" value="T">
+            <label for="tecnologia">Tecnología</label>
+            <br><br>
+
+            <input type="checkbox" id="deporte" name="Intereses" value="D">
+            <label for="deporte">Deportes</label>
+            <br><br>
+
+            <input type="checkbox" id="arte" name="Intereses" value="A">
+            <label for="arte">Arte</label>
+            <br><br>
+
+            <label for="pais">País:</label>
+            <select id="pais" name="pais">
+                <option value="uy">Uruguay</option>
+                <option value="ar">Argentina</option>
+                <option value="br">Brasil</option>
+            </select>
+            <br><br>
+
+            <label for="comentario">Dejanos tu opinión:</label><br>
+            <textarea id="comentario" name="comentario" rows="5" cols="40" placeholder="Escribí tu opinión..."></textarea>
+            <br><br>
+
+            <input class="button" type="submit" value="Enviar Formulario">
+
+        </form>
+    </main>
+
+</body>
+</html>

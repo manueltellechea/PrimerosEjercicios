@@ -1,0 +1,95 @@
+.section {
+    display: inline-block;
+    background-color: white;
+    width: 250px;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.sectionimg {
+    display: block;
+    width: 60%;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin: auto;
+}
+.button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.titulo {
+    color: black;
+    text-align: center;
+}
+.titulo_P {
+    color: black;
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 60px;
+    margin: 0 auto;
+}
+.main {
+    margin-left: 13%;
+    margin-top: 5%;
+    text-align: center;
+    margin: 20px auto;
+}
+body {
+    background-color: #d6c6c6;
+    font-family: Arial, sans-serif;
+}
+header, section {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+}
+footer {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 0%;
+    background-color: black; 
+    color: white;
+    text-align: center;   
+}
+.integradora {
+    max-width: 100%;
+    margin: 0px 0px 35px 0px;
+    padding: 15px;
+    background-color: rgb(121, 110, 110); 
+    color: rgb(185, 2, 2);
+    text-align: center;   
+}
+.nav {
+    color: white;
+    text-decoration: none;
+}
+h3 {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: black; 
+    color: white;
+    text-align: center;   
+}
+.centrar-audio {
+    text-align: center;
+    /*margin-top: 30px; */
+}
+.seccion {
+    max-width: 100%;
+    margin: 0px 0px 40px 0px;
+    padding: 15px;
+    color: black;
+    text-align: center;
+
+}
